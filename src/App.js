@@ -1,5 +1,5 @@
 import React from 'react';
-import React, { Components } from 'react'
+import "./components/style.css"
 import MessageList from "./components/MessageList"
 import SendMessageForm from "./components/SendMessageForm"
 import RoomList from "./components/RoomList"
@@ -7,10 +7,10 @@ import NewRoomForm from "./components/NewRoomForm"
 
 
 
-class App extends Components { 
+class App extends React.Component { 
   render() {
   return (
-    <div className="App">
+    <div className="app">
       <RoomList />
       <MessageList />
       <SendMessageForm />
